@@ -16,4 +16,4 @@ Bases on the Typesafe Reactor project [Scala Seed](https://www.typesafe.com/acti
 ### 1. ETag Header
 
 Simulate ETag Header generation and proper responses for ETags
- Based upon explanation from Wikipedia: [ETag](https://en.wikipedia.org/wiki/HTTP_ETag)
+ based upon explanation from Wikipedia: [ETag](https://en.wikipedia.org/wiki/HTTP_ETag)
