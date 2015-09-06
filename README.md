@@ -5,10 +5,10 @@ Bases on the Typesafe Reactor project [Scala Seed](https://www.typesafe.com/acti
 
 ## Structure
 
-- each scenario gets it's own api path (e.g. /<scenario name>)
+- each scenario gets it's own api path (e.g. /_scenario name_)
 - each scenario should be implemented in it's own class and complex
   scenarios should be created in a separated package
-- scenarios are to be explained (html) under the path /<scenario name>/description
+- scenarios are to be explained (html) under the path /_scenario name_/description
 - complex scenarios may contain a service document under the root path (containing all resources)
 
 ## Current Scenarios
