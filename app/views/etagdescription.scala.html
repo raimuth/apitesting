@@ -7,8 +7,19 @@
 <body>
     <p>
         ETags are commonly used as hashes representing the content of the requested resource.<br/>
-        The '/etag" resource represents a simple implementation to serve as an example on how to properly use ETags <br/>
+        The '/etag' resource represents a simple implementation to serve as an example on how to properly use ETags <br/>
         within REST(full) webservices.
+    </p>
+    <p>
+        Use Case: If usage of 'Last-Modified' header would result in costly processing due to a complex data structure.<br/>
+        E.g. lists of a multitude of objects that might have been modified.<br/>
+        The ETag header is better suited for this case, as it is easier to determine if the content changed<br/>
+        with a hash generated over the payload.
+    </p>
+    <p>
+        Problems: Hash collision might be a problem, but is very unlikely to happen.
+        Even within a complex data structure you will need a field that will change with changes to the underlying data.<br/>
+        In lists using a modification timestamp for each item might be a good idea.
     </p>
 </body>
 </html>
